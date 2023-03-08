@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+	background: #c4c4c4;
+	font-size: 14px;
+	line-height: 20px;
+}
+.Perfil{
+	display: flex;
+	width: 800px;
+	margin: 50px auto;
+	background: #fff;
+	padding: 10px;
+    border-radius: 15px;
+}
+.Perfil h2{
+    color:black;
+    font-size: 2.7em;
+    margin-top:10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    font-family: 'Tilt Warp';
+	letter-spacing: 0.20em;
+}
+.Perfil h2 span{
+    font-size:0.8em;
+    font-weight: 300;
+}
+
+ .linea {
+    border-top: 1px solid #0175b2;
+    height: 2px;
+    max-width: 200px;
+    padding: 0;
+    margin-bottom: 15px;
+  }
+.Perfil .Parte_Izquierda{
+	width: 35%;
+	background: #26252d;
+    border-radius: 15px;
+}
+.Perfil .Parte_Izquierda .Imagen_Perfil{
+	width: 100%;
+    border-radius: 15px;
+}
+.Perfil .Parte_Izquierda .Imagen_Perfil img{
+	width: 100%;
+	display: block;
+    border-radius: 15px;
+}
+.Perfil .Titulo{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 16px;
+	margin-bottom: 15px;
+	letter-spacing: 4px;
+    margin-top: 15px;
+}
+.Perfil .Parte_Izquierda .Info{
+	color: #84838b;
+}
+
+
+.Perfil .Parte_Izquierda .Perfil_Presentacion{
+	padding: 20px 30px;
+}
+
+
+.Perfil_Contacto a{
+    text-decoration: none;
+    color: #84838b;
+ 
+}
+.Perfil_Contacto ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor:pointer;
+}
+.Perfil_Contacto ul li .icon{
+    display: inline-block;
+    width:30px;
+    font-size: 18px;
+    color: #0175b2;
+}
+.Perfil_Contacto ul li span{
+    color: #84838b;
+    font-weight: 300;
+}
+
+.Perfil .Parte_Izquierda .Habilidades .Lista_Habilidades{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.Perfil .Parte_Izquierda .Habilidades .Lista_Habilidades .skills_bar p{
+	position: relative;
+	width: 125px;
+    height: 20px;
+    background: #fff;
+}
+
+.Perfil .Parte_Izquierda .Habilidades .Lista_Habilidades .skills_bar p span{	
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #0175b2;
+	width: 100%;
+	height: 100%;
+}
+
+.Perfil .Parte_Derecha{
+	width: 65%;
+	padding: 20px 40px;
+	color: #26252d;
+    border-radius: 15px;
+}
+
+
+
+.Perfil .Parte_Derecha  .Titulo{
+	color: #26252d;
+    margin-top: 25px;
+    margin-bottom: 15px;
+	letter-spacing: 0.50em;
+
+}
+
+.Perfil .Parte_Derecha .Dato{
+	display: flex;
+}
+
+.Perfil .Parte_Derecha .Dato .año{
+	padding-right: 35px;
+	width: 115px;
+	position: relative;
+}
+
+.Perfil .Parte_Derecha .Dato .content{
+	padding-left: 35px;
+	margin-bottom: 20px;
+	width: calc(100% - 115px);
+}
+
+.Perfil .Parte_Derecha .Dato .año:before{
+	content: "";
+	position: absolute;
+	top: 5px;
+	right: 0;
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border: 1px solid #26252d;
+	border-radius: 50%;
+}
+
+.Perfil .Parte_Derecha .Dato .año:after{
+	content: "";
+    position: absolute;
+    top: 17px;
+    right: 4px;
+    width: 3px;
+    height: 90%;
+    background: #0175b2;
+}
+
+.Perfil .Parte_Derecha .Idiomas .Info{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+.Perfil .Parte_Derecha .Idiomas .int_icon{
+	font-size: 38px;
+	color: #0175b2;
+	margin-bottom: 10px;
+}
+
+.Perfil .Parte_Derecha .Idiomas .foto_idioma{
+    width: 30px;
+}
+.form {
+    max-inline-size: 550px;
+    margin: auto;
+    display:none;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+  }
+  
+  .form label span {
+    color: #DA1414;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em;
+    border-radius: .5em;
+    border: 1px solid #858C94;
+  }
+  .form textarea {
+    margin-block-end: 2em;
+    font-family: inherit;
+  }
+  
+  input::-webkit-input-placeholder {
+    color: #0F0A0A88;
+  }
+ .Formulario button {
+	margin-top: 15px;
+    border-radius:20px;
+    width: 130px;
+    height: 50px;
+    font-family :Kollektif, sans-serif;
+    font-size: 1.1em;
+  }
+  
+  .Formulario {
+    font-family :Kollektif, sans-serif;
+    color:#333;
+   
+  }
