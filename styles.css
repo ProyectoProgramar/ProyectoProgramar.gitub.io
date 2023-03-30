@@ -6,21 +6,21 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 body{
-	background: #c4c4c4;
-	font-size: 14px;
+	background: #051937;
+	font-size: 16px;
 	line-height: 20px;
 }
 .Perfil{
 	display: flex;
-	width: 800px;
+	width: 900px;
 	margin: 50px auto;
-	background: #fff;
+	background:#E5E6E1;
 	padding: 10px;
     border-radius: 15px;
 }
 .Perfil h2{
     color:black;
-    font-size: 2.7em;
+    font-size: 2.9em;
     margin-top:10px;
     text-transform: uppercase;
     text-align: center;
@@ -43,7 +43,7 @@ body{
   }
 .Perfil .Parte_Izquierda{
 	width: 35%;
-	background: #26252d;
+	background: #304145;
     border-radius: 15px;
 }
 .Perfil .Parte_Izquierda .Imagen_Perfil{
@@ -59,10 +59,11 @@ body{
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 18px;
 	margin-bottom: 15px;
 	letter-spacing: 4px;
     margin-top: 15px;
+    padding-top: 10px ;
 }
 .Perfil .Parte_Izquierda .Info{
 	color: #84838b;
@@ -141,7 +142,7 @@ body{
 
 .Perfil .Parte_Derecha .Dato .año{
 	padding-right: 35px;
-	width: 115px;
+	width:180px;
 	position: relative;
 }
 
@@ -158,7 +159,7 @@ body{
 	right: 0;
 	width: 10px;
 	height: 10px;
-	background: #fff;
+	background:mediumpurple;
 	border: 1px solid #26252d;
 	border-radius: 50%;
 }
@@ -224,10 +225,13 @@ body{
  .Formulario button {
 	margin-top: 15px;
     border-radius:20px;
-    width: 130px;
+    width: 161px;
     height: 50px;
     font-family :Kollektif, sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
+    background-color: #0175b2;
+    color:#fff;
+  
   }
   
   .Formulario {
